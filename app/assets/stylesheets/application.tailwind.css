@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-base {
+    @apply p-2 rounded w-max ;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-slate-800 hover:bg-slate-600 text-slate-100;
+  }
+
+  .btn-secondary {
+    @apply btn-base bg-slate-300 hover:bg-slate-400 text-slate-800;
+  }
+
+  .btn-warn {
+    @apply btn-base bg-red-500 hover:bg-red-300 text-slate-100;
+  }
+}
+
+
